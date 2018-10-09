@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3DF2EBA216CA8740051D373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EB9216CA8740051D373 /* AppDelegate.m */; };
+		D3DF2EBD216CA8740051D373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EBC216CA8740051D373 /* ViewController.m */; };
+		D3DF2EC0216CA8740051D373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EBE216CA8740051D373 /* Main.storyboard */; };
+		D3DF2EC2216CA8750051D373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EC1216CA8750051D373 /* Assets.xcassets */; };
+		D3DF2EC5216CA8750051D373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EC3216CA8750051D373 /* LaunchScreen.storyboard */; };
+		D3DF2EC8216CA8750051D373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EC7216CA8750051D373 /* main.m */; };
+		D3DF2ED3216CAA6F0051D373 /* NSString+Blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */; };
+		D3DF2ED4216CAA6F0051D373 /* NSData+Blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3DF2EB5216CA8740051D373 /* YGBlowfishHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGBlowfishHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DF2EB8216CA8740051D373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3DF2EB9216CA8740051D373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3DF2EBB216CA8740051D373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3DF2EBC216CA8740051D373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3DF2EBF216CA8740051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DF2EC1216CA8750051D373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DF2EC4216CA8750051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DF2EC6216CA8750051D373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DF2EC7216CA8750051D373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3DF2ED0216CAA6F0051D373 /* NSString+Blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Blowfish.h"; sourceTree = "<group>"; };
+		D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Blowfish.m"; sourceTree = "<group>"; };
+		D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Blowfish.m"; sourceTree = "<group>"; };
+		D3DF2ED5216CAA8B0051D373 /* YGBlowfishHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGBlowfishHelper.h; sourceTree = "<group>"; };
+		D3DF2ED6216CAB290051D373 /* NSData+Blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Blowfish.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DF2EB2216CA8740051D373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DF2EAC216CA8740051D373 = {
+			isa = PBXGroup;
+			children = (
+				D3DF2EB7216CA8740051D373 /* YGBlowfishHelper */,
+				D3DF2EB6216CA8740051D373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DF2EB6216CA8740051D373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2EB5216CA8740051D373 /* YGBlowfishHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DF2EB7216CA8740051D373 /* YGBlowfishHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2ECE216CA8800051D373 /* YGBlowfishHelper */,
+				D3DF2EB8216CA8740051D373 /* AppDelegate.h */,
+				D3DF2EB9216CA8740051D373 /* AppDelegate.m */,
+				D3DF2EBB216CA8740051D373 /* ViewController.h */,
+				D3DF2EBC216CA8740051D373 /* ViewController.m */,
+				D3DF2EBE216CA8740051D373 /* Main.storyboard */,
+				D3DF2EC1216CA8750051D373 /* Assets.xcassets */,
+				D3DF2EC3216CA8750051D373 /* LaunchScreen.storyboard */,
+				D3DF2EC6216CA8750051D373 /* Info.plist */,
+				D3DF2EC7216CA8750051D373 /* main.m */,
+			);
+			path = YGBlowfishHelper;
+			sourceTree = "<group>";
+		};
+		D3DF2ECE216CA8800051D373 /* YGBlowfishHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF2ED6216CAB290051D373 /* NSData+Blowfish.h */,
+				D3DF2ED5216CAA8B0051D373 /* YGBlowfishHelper.h */,
+				D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */,
+				D3DF2ED0216CAA6F0051D373 /* NSString+Blowfish.h */,
+				D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */,
+			);
+			path = YGBlowfishHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DF2EB4216CA8740051D373 /* YGBlowfishHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF2ECB216CA8750051D373 /* Build configuration list for PBXNativeTarget "YGBlowfishHelper" */;
+			buildPhases = (
+				D3DF2EB1216CA8740051D373 /* Sources */,
+				D3DF2EB2216CA8740051D373 /* Frameworks */,
+				D3DF2EB3216CA8740051D373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGBlowfishHelper;
+			productName = YGBlowfishHelper;
+			productReference = D3DF2EB5216CA8740051D373 /* YGBlowfishHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DF2EAD216CA8740051D373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xuyagung;
+				TargetAttributes = {
+					D3DF2EB4216CA8740051D373 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D3DF2EB0216CA8740051D373 /* Build configuration list for PBXProject "YGBlowfishHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DF2EAC216CA8740051D373;
+			productRefGroup = D3DF2EB6216CA8740051D373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DF2EB4216CA8740051D373 /* YGBlowfishHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DF2EB3216CA8740051D373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2EC5216CA8750051D373 /* LaunchScreen.storyboard in Resources */,
+				D3DF2EC2216CA8750051D373 /* Assets.xcassets in Resources */,
+				D3DF2EC0216CA8740051D373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DF2EB1216CA8740051D373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2ED4216CAA6F0051D373 /* NSData+Blowfish.m in Sources */,
+				D3DF2EBD216CA8740051D373 /* ViewController.m in Sources */,
+				D3DF2EC8216CA8750051D373 /* main.m in Sources */,
+				D3DF2EBA216CA8740051D373 /* AppDelegate.m in Sources */,
+				D3DF2ED3216CAA6F0051D373 /* NSString+Blowfish.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3DF2EBE216CA8740051D373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DF2EBF216CA8740051D373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DF2EC3216CA8750051D373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DF2EC4216CA8750051D373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DF2EC9216CA8750051D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3DF2ECA216CA8750051D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DF2ECC216CA8750051D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHJ49E2M82;
+				INFOPLIST_FILE = YGBlowfishHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyaguang.YGBlowfishHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DF2ECD216CA8750051D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHJ49E2M82;
+				INFOPLIST_FILE = YGBlowfishHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyaguang.YGBlowfishHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DF2EB0216CA8740051D373 /* Build configuration list for PBXProject "YGBlowfishHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2EC9216CA8750051D373 /* Debug */,
+				D3DF2ECA216CA8750051D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF2ECB216CA8750051D373 /* Build configuration list for PBXNativeTarget "YGBlowfishHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF2ECC216CA8750051D373 /* Debug */,
+				D3DF2ECD216CA8750051D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DF2EAD216CA8740051D373 /* Project object */;
+}
