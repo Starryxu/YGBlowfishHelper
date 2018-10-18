@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "YGBlowfishHelper"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "针对NSString和NSData的加密解密分类"
 s.homepage     = "https://github.com/Starryxu/YGBlowfishHelper.git"
 s.license      = { :type => "MIT", :file => "LICENSE" }
