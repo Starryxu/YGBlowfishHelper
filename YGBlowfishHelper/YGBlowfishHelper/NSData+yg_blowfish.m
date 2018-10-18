@@ -1,15 +1,9 @@
-//
-//  NSData+Blowfish.m
-//  XToolWhiteNoiseIOS
-//
-//  Created by 许亚光 on 2018/8/31.
-//  Copyright © 2018年 小叶科技. All rights reserved.
-//
 
-#import "NSData+Blowfish.h"
+
+#import "NSData+yg_blowfish.h"
 #import <CommonCrypto/CommonCryptor.h>
 
-@implementation NSData (AdBlowfish)
+@implementation NSData (yg_blowfish)
 // 核心代码
 + (NSData *)doBlowfish:(NSData *)dataIn context:(CCOperation)kCCEncrypt_or_kCCDecrypt key:(NSData *)key options:(CCOptions)options iv:(NSData *)iv error:(NSError **)error {
     
@@ -51,11 +45,11 @@
     NSData *key = [pkey dataUsingEncoding:NSUTF8StringEncoding];
     NSData *dataOriginal = self;
     NSData *dataEncrypted = [NSData doBlowfish:dataOriginal
-                                         context:kCCEncrypt
-                                             key:key
-                                         options:kCCOptionPKCS7Padding | kCCOptionECBMode
-                                              iv:nil
-                                           error:&error];
+                                       context:kCCEncrypt
+                                           key:key
+                                       options:kCCOptionPKCS7Padding | kCCOptionECBMode
+                                            iv:nil
+                                         error:&error];
     
     return dataEncrypted;
 }
@@ -71,11 +65,11 @@
     NSData *key = [pkey dataUsingEncoding:NSUTF8StringEncoding];
     NSData *dataToDecrypt = [self base64EncodedDataWithOptions:0];
     NSData *dataDecrypted = [NSData doBlowfish:dataToDecrypt
-                                         context:kCCDecrypt
-                                             key:key
-                                         options:kCCOptionPKCS7Padding | kCCOptionECBMode
-                                              iv:nil
-                                           error:&error];
+                                       context:kCCDecrypt
+                                           key:key
+                                       options:kCCOptionPKCS7Padding | kCCOptionECBMode
+                                            iv:nil
+                                         error:&error];
     return dataDecrypted;
 }
 @end

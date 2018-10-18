@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3BF6FFC217874CD00AB3605 /* NSData+yg_blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6FFB217874CD00AB3605 /* NSData+yg_blowfish.m */; };
+		D3BF6FFF217874E700AB3605 /* NSString+yg_blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BF6FFE217874E700AB3605 /* NSString+yg_blowfish.m */; };
 		D3DF2EBA216CA8740051D373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EB9216CA8740051D373 /* AppDelegate.m */; };
 		D3DF2EBD216CA8740051D373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EBC216CA8740051D373 /* ViewController.m */; };
 		D3DF2EC0216CA8740051D373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EBE216CA8740051D373 /* Main.storyboard */; };
 		D3DF2EC2216CA8750051D373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EC1216CA8750051D373 /* Assets.xcassets */; };
 		D3DF2EC5216CA8750051D373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DF2EC3216CA8750051D373 /* LaunchScreen.storyboard */; };
 		D3DF2EC8216CA8750051D373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2EC7216CA8750051D373 /* main.m */; };
-		D3DF2ED3216CAA6F0051D373 /* NSString+Blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */; };
-		D3DF2ED4216CAA6F0051D373 /* NSData+Blowfish.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3BF6FFA217874CD00AB3605 /* NSData+yg_blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+yg_blowfish.h"; sourceTree = "<group>"; };
+		D3BF6FFB217874CD00AB3605 /* NSData+yg_blowfish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+yg_blowfish.m"; sourceTree = "<group>"; };
+		D3BF6FFD217874E700AB3605 /* NSString+yg_blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+yg_blowfish.h"; sourceTree = "<group>"; };
+		D3BF6FFE217874E700AB3605 /* NSString+yg_blowfish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+yg_blowfish.m"; sourceTree = "<group>"; };
 		D3DF2EB5216CA8740051D373 /* YGBlowfishHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGBlowfishHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF2EB8216CA8740051D373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3DF2EB9216CA8740051D373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,11 +32,7 @@
 		D3DF2EC4216CA8750051D373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3DF2EC6216CA8750051D373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3DF2EC7216CA8750051D373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3DF2ED0216CAA6F0051D373 /* NSString+Blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Blowfish.h"; sourceTree = "<group>"; };
-		D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Blowfish.m"; sourceTree = "<group>"; };
-		D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Blowfish.m"; sourceTree = "<group>"; };
 		D3DF2ED5216CAA8B0051D373 /* YGBlowfishHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGBlowfishHelper.h; sourceTree = "<group>"; };
-		D3DF2ED6216CAB290051D373 /* NSData+Blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Blowfish.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +82,11 @@
 		D3DF2ECE216CA8800051D373 /* YGBlowfishHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D3DF2ED6216CAB290051D373 /* NSData+Blowfish.h */,
 				D3DF2ED5216CAA8B0051D373 /* YGBlowfishHelper.h */,
-				D3DF2ED2216CAA6F0051D373 /* NSData+Blowfish.m */,
-				D3DF2ED0216CAA6F0051D373 /* NSString+Blowfish.h */,
-				D3DF2ED1216CAA6F0051D373 /* NSString+Blowfish.m */,
+				D3BF6FFA217874CD00AB3605 /* NSData+yg_blowfish.h */,
+				D3BF6FFB217874CD00AB3605 /* NSData+yg_blowfish.m */,
+				D3BF6FFD217874E700AB3605 /* NSString+yg_blowfish.h */,
+				D3BF6FFE217874E700AB3605 /* NSString+yg_blowfish.m */,
 			);
 			path = YGBlowfishHelper;
 			sourceTree = "<group>";
@@ -161,11 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DF2ED4216CAA6F0051D373 /* NSData+Blowfish.m in Sources */,
+				D3BF6FFF217874E700AB3605 /* NSString+yg_blowfish.m in Sources */,
+				D3BF6FFC217874CD00AB3605 /* NSData+yg_blowfish.m in Sources */,
 				D3DF2EBD216CA8740051D373 /* ViewController.m in Sources */,
 				D3DF2EC8216CA8750051D373 /* main.m in Sources */,
 				D3DF2EBA216CA8740051D373 /* AppDelegate.m in Sources */,
-				D3DF2ED3216CAA6F0051D373 /* NSString+Blowfish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

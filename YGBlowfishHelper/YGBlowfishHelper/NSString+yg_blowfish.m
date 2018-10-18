@@ -1,16 +1,9 @@
-//
-//  NSString+Blowfish.m
-//  XToolWhiteNoiseIOS
-//
-//  Created by 许亚光 on 2018/8/22.
-//  Copyright © 2018年 小叶科技. All rights reserved.
-//
 
-#import "NSString+Blowfish.h"
+
+#import "NSString+yg_blowfish.h"
 #import <CommonCrypto/CommonCryptor.h>
 
-@implementation NSString (AdBlowfish)
-
+@implementation NSString (yg_blowfish)
 // 核心代码
 + (NSData *)doBlowfish:(NSData *)dataIn context:(CCOperation)kCCEncrypt_or_kCCDecrypt key:(NSData *)key options:(CCOptions)options iv:(NSData *)iv error:(NSError **)error {
     
@@ -83,8 +76,6 @@
     NSString *stringDecrypted = [[NSString alloc] initWithData:dataDecrypted encoding:NSUTF8StringEncoding];
     return stringDecrypted;
 }
-
-
 
 
 @end
